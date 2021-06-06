@@ -1,0 +1,117 @@
+Ayuda memoria- Comandos Basico de Git
+
+inicio + cmd # entra a la pantalla negra
+-----------------------------------------------------------adencltro
+pwd # en que carpeta estoy parada
+
+git --version # version de git instalada
+
+ls #  todos los archivos y directorios que tengo dentro de la carpeta que estamos parados
+
+ls -l # para mas detalles indica si es archivos, directorios , carpeta, fechas de creacion, fechas de ultimo acceso 
+d:directorio
+->acceso directo
+
+ls -lh # nos  tira el tamaño en megas, k...
+
+clear+Enter o CCtrl+L #limpia la pantalla
+
+cd Musica #ingresa a la carpeta especificada
+
+a partir de aca puedo usar pwd para saber donde estoy
+
+cd .. # vuelvo una carpeta atras y despues uso pwd para saber donde quede 
+
+cd /c # entro al directorio C
+
+exit #sale del directorio
+
+**************************************************************************
+mkdir proyecto1 # crear diretorio y carpeta
+
+si ponemos ls -lh no  vamos a tener nada
+
+cd proyecto1 #nos metemos dentro la carpeta esta
+
+touch pagina.txt # con touch creamos un archivo de texto aunque podemos creacr cualquier tipo de archivo con la extension que va
+
+mkdir subcarpeta # ahora vamos a tener una carpeta dentro de proyecto 1 mas el archivo de txt
+
+cat pagina.txt #nos permite ver el contenido del archivo
+
+ls -la # vemos archivos ocultos
+
+rm pagina.txt #elimina el archivo indicado
+
+rm -r ejemplo # elimina la subcarpeta y el directorio con el -r
+
+***************************************************************************
+git init #se nicia un repositorio si aparece (master) es porque se inicio
+
+ls -la# las carpetas van a estar ocultas 
+
+------AHORA NOS LOGEAMOS Y CONFIGURAMOS GIT  para un poryecto
+
+git config --global user.name "Julieta" #le ponemos un nombre
+
+git config --global user.email "2598juli@..." #ponemos un mail para loguearnos
+
+git.config user.name # vemos quien se logueo
+
+ git add ejercicio1.txt #añadimos un archivs
+
+git status # ve el estado en que estamos
+
+git commit -m "probando subir primer repo" #subimos un archivo o modificamos lo vamos modificando desde aca
+ dejar siempre un comentario
+
+git log # nos tira la info del arichivo subido
+
+*hacemosun cambio en ejercicio1.txt  lo actulizamos al repositorio*
+
+git add ejercicio1.txt
+
+git status 
+
+git commit -m "comentario de lo que modificamos"
+
+git log #aca lo subimos
+
+*cuando instale git me tiro unas tips*
+
+unknown option: -version
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+
+configuraciones 
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+****************************************************************************
+
+GITHUB 
+
+crear un repositorio 
+
+gi.config user.mail #vemos el mail logueados
+
+
+
+
+
+
+
+
